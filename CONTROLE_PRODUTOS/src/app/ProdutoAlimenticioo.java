@@ -2,8 +2,6 @@ package app;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import DAO.ProdutoAlimenticiooDAO;//IMPORTA CLASSE DOS PRODUTOS ALIMENTICIOS QUE FAZ A CONEXÃO COM JDBC
-
 public class ProdutoAlimenticioo extends Produto {
     //DEFINIÇÃO DOS ATRIBUTOS PRIVADOS
     private String data_val;
@@ -73,17 +71,5 @@ public class ProdutoAlimenticioo extends Produto {
         "\nLucro: R$"+ calcularLucro()+"\n";
     }
 
-    //MÉTODO QUE DELETA REGISTROS DO BANCO DE DADOS
-    public void deletarAlimento(int id_alimento){
-        new ProdutoAlimenticiooDAO().deletarAlimento(id_alimento);
-    }
-    //MÉTODO QUE CADASTRA REGISTRO NO BANCO DE DADOS
-    public void atualizarAlimento(ProdutoAlimenticioo pa){
-        new ProdutoAlimenticiooDAO().atualizarAlimento(pa);
-    }
-    //MÉTODO QUE CADASTRA REGISTRO NO BANCO DE DADOS
-    public void cadastrarAlimento(ProdutoAlimenticioo pa){
-        new ProdutoAlimenticiooDAO().cadastrarAlimento(pa);
-    }
     
 }

@@ -1,5 +1,4 @@
 package app;
-import DAO.ProdutoVestuarioDAO;//IMPORTA CLASSE DO VESTUARIO QUE FAZ A CONEXÃO COM JDBC
 
 public class ProdutoVestuarioo extends Produto {
     //DEFINIÇÃO DOS ATRIBUTOS PRIVADO
@@ -64,21 +63,6 @@ public class ProdutoVestuarioo extends Produto {
         "\nPreço de custo: R$"+getPreco_custo()+
         "\nPreço de venda: R$"+getPreco_venda()+
         "\nLucro: R$"+ calcularLucro();
-    }
-
-    //MÉTODO QUE DELETA REGISTROS DO BANCO DE DADOS
-    public void deletarVestuario(int id_vestuario){
-        new ProdutoVestuarioDAO().deletarVestuario(id_vestuario);;
-    }
-
-    //MÉTODO QUE CADASTRA REGISTRO NO BANCO DE DADOS
-    public void cadastrarVestuario(ProdutoVestuarioo pv ){
-        new ProdutoVestuarioDAO().cadastrarVestuario(pv);
-    }
-
-    //MÉTODO QUE CADASTRA REGISTRO NO BANCO DE DADOS
-    public void atualizarVestuario(ProdutoVestuarioo pv){
-        new ProdutoVestuarioDAO().atualizarVestuario(pv);
     }
     
 }

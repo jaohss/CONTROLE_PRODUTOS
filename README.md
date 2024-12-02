@@ -1,5 +1,4 @@
-# ABSTRATA_PRODUTO
-
+# CONTROLE_PRODUTOS
 Este programa se define a partir da entrada de dados para determinados características(atributos) de um produto alimenticio e um produto de vestuário, ambos tipos de produtos possuem suas próprias classes onde realiza um método abstrata da da superclasse, que calcula o lucro, e métodos próprios que fazem funções referentes ao banco de dados, sendo elas a deletar, atualizar e inserir registro no banco de dados relacional
 
 ## 🚀 Começando
@@ -33,4 +32,4 @@ Ferramentas utilizadas e bibliotecas
 
 ## ✒️ Autores
 
-* **João Henrique Santos da Silva** - *Trabalho Inicial* - ABSTRATA_PRODUTO
+* **João Henrique Santos da Silva** - *Trabalho Inicial* - CONTROLE_PRODUTOS
