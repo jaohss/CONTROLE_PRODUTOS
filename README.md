@@ -10,6 +10,24 @@ A classe ProdutoAlimenticio é derivada de Produto e possui os atributos data de
 A classe ProdutoVestuario possui os atributos tamanho, cor e material.
 
 Todas as classes devem ter métodos para salvar, deletar e atualizar registros em um banco de dados relacional.
+
+Crie um banco de dados relacional para conter as informações das classes solicitadas.
+
+PARA ESTA ATIVIDADE, CRIE UM README.MD QUE TENHA A IMAGEM DO BANCO DE DADOS E DO CONSOLE DAS INFORMAÇÕES ADICIONADAS.
+
+O REPOSITÓRIO DEVE SER RENOMEADO PARA CONTROLE_PRODUTOS.
+
+SERÁ NECESSÁRIO ENVIAR NOVAMENTE O LINK DO REPOSITÓRIO REMOTO.
+
+AS ATIVIDADES SÃO INDIVIDUAIS, CONTUDO VOCÊ PODE CONVERSAR COM SEUS COLEGAS E CONSULTAR DIFERENTES FERRAMENTAS PARA EXECUÇÃO.
+
+CASO SEJA ENTREGUE ATIVIDADES COM CÓDIGO IGUAIS E COMENTÁRIOS IGUAIS À ATIVIDADE SERÁ ZERADA PARA AMBOS OS ALUNOS.
+
+ENTREGUE NESTA ATIVIDADE O SEU LINK DO REPOSITÓRIO, CASO AS ATIVIDADES NÃO TENHAM AS DEVIDAS IDENTIFICAÇÕES SERÁ ZERADA A MESMA.
+
+PRESTE ATENÇÃO NAS AULAS SOBRE CONEXÃO COM BANCO DE DADOS, VOCÊ PODERÁ ESCOLHER ENTRE JDBC OU JPA PARA CRIAR SEU PROJETO.
+
+CRIE SEU BANCO DE DADOS RELACIONAL NO MYSQL OU NO SQL SERVER.
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
